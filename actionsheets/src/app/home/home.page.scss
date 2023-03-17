@@ -1,0 +1,43 @@
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+action-sheets-home-page{
+  .ion-md-sheets{
+    color:rgb(50, 141, 38)
+  }
+  .ion-md-arrow-dropright-circle{
+    color:rgb(240, 34, 137)
+  }
+  .ion-md-heart-outile{
+    color:rgba(31,133,60,0.904)
+  }
+  .action-sheet-cancel ion-icon,
+  .action-sheet-destructive ion-icon{
+    color:#e61010;
+  }
+}
