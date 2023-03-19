@@ -1,3 +1,7 @@
+# Atividades
+
+
+# Diario de Estudos
 # IONIC_ESTUDOS
 
 Esta pasta se destina ao Estudo de IONIC da disciplina de Desenvolvimento Mobile
@@ -46,4 +50,23 @@ Ionic List
 Ionic Loading
 Ionic Menu
 
+## Ionic (16/03/2023 - 16/03/2023)
+--------------------------------------------------------------------
+Ionic Modal
+Ionic Progress Bar
+Ionic Radio
+Ionic Range
+Ionic Refresher
+Ionic Reorder
+Ionic Segment
+Ionic Select
+Ionic Slides
 
+## Ionic (17/03/2023 - 17/03/2023)
+--------------------------------------------------------------------
+Ionic Spinner
+Ionic Tabs
+Ionic Toggle
+Ionic Toolbar
+Ionic Toast
+Criando um app to-do
