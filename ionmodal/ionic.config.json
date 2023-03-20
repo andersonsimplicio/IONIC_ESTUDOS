@@ -1,0 +1,7 @@
+{
+  "name": "ionmodal",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
