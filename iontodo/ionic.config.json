@@ -1,0 +1,7 @@
+{
+  "name": "iontodo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
