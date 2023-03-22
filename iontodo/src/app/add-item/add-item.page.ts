@@ -26,6 +26,7 @@ export class AddItemPage implements OnInit {
       title: this.newItem.title,
       description: this.newItem.description
     };
+
     this.modalCtrl.dismiss({
       data: item,
       role: 'success'

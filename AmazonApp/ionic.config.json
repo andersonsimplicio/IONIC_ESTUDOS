@@ -1,0 +1,7 @@
+{
+  "name": "AmazonApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

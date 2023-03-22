@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Amazon App-Buy</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-content>
+      <ion-card-title>{{item.product}}</ion-card-title>
+      <ion-item>
+        <ion-label position="floating">Produto</ion-label>
+        <ion-input type="text" [(ngModel)]="item.product"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Descrição</ion-label>
+        <ion-input type="text" [(ngModel)]="item.description"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Descrição</ion-label>
+        <ion-input type="text" [(ngModel)]="item.price"></ion-input>
+      </ion-item>
+      <ion-button slot="end" size="small" (click)="goBack()">
+        <ion-icon name="arrow-back-circle-outline"></ion-icon>
+      </ion-button>
+
+      <ion-button color="primary" slot="end" size="small" (click)="updateItem()">
+        <ion-icon name="save-outline"></ion-icon>
+      </ion-button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

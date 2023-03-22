@@ -52,7 +52,6 @@ export class HomePage implements OnInit {
         console.log(todos);
         this.items = todos;
         console.log(this.items);
-
     })
   }
 

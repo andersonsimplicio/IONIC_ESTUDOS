@@ -1,0 +1,28 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+        Amazon App-Buy
+    </ion-title>
+  </ion-toolbar>
+  <ion-fab-button color="secondary" size="small" class="ion-margin-start" (click)="addItem()">
+    <ion-icon name="add-circle-outline" shape="round"></ion-icon>
+  </ion-fab-button>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <ion-item *ngFor="let item of items">
+      <ion-label  color="primary" size="small">{{item.product}}</ion-label>
+      <ion-label size="small">R$ {{item.price}}</ion-label>
+
+      <ion-button slot="end" color="warning" (click)="viewItem(item)">
+        <ion-icon name="arrow-forward-circle-outline"></ion-icon>
+      </ion-button>
+
+      <ion-button color="danger" slot="end" size="small" (click)="DeleteItem(item)">
+        <ion-icon name="trash-outline"></ion-icon>
+      </ion-button>
+
+    </ion-item>
+  </ion-list>
+</ion-content>

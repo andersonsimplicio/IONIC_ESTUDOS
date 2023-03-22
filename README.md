@@ -1,5 +1,5 @@
-# Atividades
-
+# Atividades -IONIC 
+https://youtu.be/dQk31YQYv9U
 
 # Diario de Estudos IONIC 
 

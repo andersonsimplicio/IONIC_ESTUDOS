@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Amazon App</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-label position="floating">Produto</ion-label>
+      <ion-input type="text" [(ngModel)]="newItem.product"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Descrição</ion-label>
+      <ion-input type="text" [(ngModel)]="newItem.description"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Preço (R$)</ion-label>
+      <ion-input type="text" [(ngModel)]="newItem.price"></ion-input>
+    </ion-item>
+  </ion-list>
+  <ion-button expand="block" (click)="saveItem()">Salvar</ion-button>
+</ion-content>
